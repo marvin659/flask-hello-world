@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   secrets-manager:
-     AWS_ECR_URI: "aws_ecr:uri"
+     AWS_ECR_URI: "aws_ecr_uri"
 phases:
   pre_build:
     commands:
